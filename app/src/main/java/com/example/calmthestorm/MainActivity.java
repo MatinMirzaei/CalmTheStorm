@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void selectDisaster(View view){
-        Intent intent = new Intent(this, DisasterSelectActivity.class);
+    public void getDisasterDetail(View view){
+        Intent intent = new Intent(this, DisasterDetailsActivity.class);
         startActivity(intent);
 
     }
