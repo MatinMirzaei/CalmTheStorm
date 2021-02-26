@@ -39,15 +39,29 @@
         android:id="@+id/volcanoBtn"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:onClick="getDisasterDetail"
         android:scaleType="fitEnd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/wildfireBtn"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/wildfireBtn"
         app:layout_constraintTop_toBottomOf="@+id/wildfireBtn"
-        app:srcCompat="@android:drawable/btn_default" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/volcano" />
+
+    <TextView
+        android:id="@+id/volcanoBtnText"
+        android:layout_width="113dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="Volcano Eruption"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/volcanoBtn"
+        app:layout_constraintStart_toStartOf="@+id/volcanoBtn"
+        app:layout_constraintTop_toTopOf="@+id/volcanoBtn"
+        app:layout_constraintVertical_bias="0.548" />
 
     <ImageButton
         android:id="@+id/hurricaneBtn"
@@ -60,46 +74,20 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_default" />
+        app:srcCompat="@drawable/tornado" />
 
     <ImageButton
         android:id="@+id/earthquakeBtn"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:onClick="getDisasterDetail"
         android:scaleType="fitEnd"
         app:layout_constraintEnd_toEndOf="@+id/hurricaneBtn"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/hurricaneBtn"
         app:layout_constraintTop_toBottomOf="@+id/hurricaneBtn"
-        app:srcCompat="@android:drawable/btn_default" />
-
-    <ImageButton
-        android:id="@+id/wildfireBtn"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:onClick="getDisasterDetail"
-        android:scaleType="fitEnd"
-        app:layout_constraintEnd_toEndOf="@+id/earthquakeBtn"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/earthquakeBtn"
-        app:layout_constraintTop_toBottomOf="@+id/earthquakeBtn"
-        app:srcCompat="@android:drawable/btn_default" />
-
-    <TextView
-        android:id="@+id/hurricaneBtnText"
-        android:layout_width="109dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:text="Hurricane"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/hurricaneBtn"
-        app:layout_constraintStart_toStartOf="@+id/hurricaneBtn"
-        app:layout_constraintTop_toTopOf="@+id/hurricaneBtn"
-        app:layout_constraintVertical_bias="0.488" />
+        app:srcCompat="@drawable/earthquake" />
 
     <TextView
         android:id="@+id/earthquakeBtnText"
@@ -112,20 +100,20 @@
         app:layout_constraintBottom_toBottomOf="@+id/earthquakeBtn"
         app:layout_constraintStart_toStartOf="@+id/earthquakeBtn"
         app:layout_constraintTop_toTopOf="@+id/earthquakeBtn"
-        app:layout_constraintVertical_bias="0.489" />
+        app:layout_constraintVertical_bias="0.508" />
 
-    <TextView
-        android:id="@+id/volcanoBtnText"
-        android:layout_width="113dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:text="Volcano Eruption"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/volcanoBtn"
-        app:layout_constraintStart_toStartOf="@+id/volcanoBtn"
-        app:layout_constraintTop_toTopOf="@+id/volcanoBtn"
-        app:layout_constraintVertical_bias="0.488" />
+    <ImageButton
+        android:id="@+id/wildfireBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:onClick="getDisasterDetail"
+        android:scaleType="fitEnd"
+        app:layout_constraintEnd_toEndOf="@+id/earthquakeBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/earthquakeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/earthquakeBtn"
+        app:srcCompat="@drawable/wildfire" />
 
     <TextView
         android:id="@+id/wildfireBtnText"
@@ -138,5 +126,19 @@
         app:layout_constraintBottom_toBottomOf="@+id/wildfireBtn"
         app:layout_constraintStart_toStartOf="@+id/wildfireBtn"
         app:layout_constraintTop_toTopOf="@+id/wildfireBtn"
-        app:layout_constraintVertical_bias="0.489" />
+        app:layout_constraintVertical_bias="0.516" />
+
+    <TextView
+        android:id="@+id/hurricaneBtnText"
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Tornado"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/hurricaneBtn"
+        app:layout_constraintStart_toStartOf="@+id/hurricaneBtn"
+        app:layout_constraintTop_toTopOf="@+id/hurricaneBtn"
+        app:layout_constraintVertical_bias="0.488" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
