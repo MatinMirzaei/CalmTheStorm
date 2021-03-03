@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="getSurvivalKit"
     tools:context=".DisasterDetailsActivity">
+
     <ImageView
         android:id="@+id/appIcon"
         android:layout_width="77dp"
@@ -25,11 +27,11 @@
         android:layout_marginStart="328dp"
         android:layout_marginLeft="328dp"
         android:contentDescription="TODO"
-        app:srcCompat="@drawable/disaster_alert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961">
+        app:layout_constraintVertical_bias="0.961"
+        app:srcCompat="@drawable/disaster_alert">
 
     </ImageView>
 
@@ -54,6 +56,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginTop="128dp"
+        android:onClick="getDisasterInfo"
         android:scaleType="fitEnd"
         app:layout_constraintBottom_toTopOf="@+id/mapsBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,6 +105,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginBottom="160dp"
+        android:onClick="getSurvivalKit"
         android:scaleType="fitEnd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/mapsBtn"
