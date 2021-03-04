@@ -83,6 +83,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginBottom="40dp"
+        android:onClick="getMap"
         android:scaleType="fitEnd"
         app:layout_constraintBottom_toTopOf="@+id/survivalKitBtn"
         app:layout_constraintEnd_toEndOf="@+id/disasterInfoBtn"
