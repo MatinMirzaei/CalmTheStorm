@@ -18,6 +18,12 @@ public class DisasterDetailsActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ListsActivity.class);
         startActivity(intent);
     }
+
+    public void getMap(View view){
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+
     public void getSurvivalKit(View view){
         Intent intent = new Intent(this, KitListActivity.class);
         startActivity(intent);

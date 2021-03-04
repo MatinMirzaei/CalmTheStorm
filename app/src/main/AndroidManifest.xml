@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalmTheStorm">
         <activity android:name=".KitListActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
         <activity android:name=".ListsActivity" />
         <activity android:name=".DisasterDetailsActivity" />
         <activity android:name=".MainActivity">
