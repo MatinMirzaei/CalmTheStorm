@@ -20,7 +20,7 @@ public class DisasterDetailsActivity extends AppCompatActivity {
     }
 
     public void getMap(View view){
-        Intent intent = new Intent(this, Map.class);
+        Intent intent = new Intent(this, MapActivity.class);
         startActivity(intent);
     }
 

@@ -6,7 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public class Map extends AppCompatActivity {
+
+public class MapActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
