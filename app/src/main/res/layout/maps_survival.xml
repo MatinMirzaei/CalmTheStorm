@@ -10,14 +10,14 @@
         android:id="@+id/mapView"
         android:layout_width="404dp"
         android:layout_height="643dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginBottom="43dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="50dp"
         android:contentDescription="TODO"
+        android:src="@drawable/survival_map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:src="@drawable/survival_map" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
