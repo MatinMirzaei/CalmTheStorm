@@ -6,15 +6,12 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import org.hamcrest.Matcher;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static androidx.test.espresso.Espresso.onData;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.*;
-import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.*;
 import static org.junit.Assert.*;
 
@@ -37,24 +34,24 @@ public class ActivityUITests {
 
     @Test
     public void can_select_tornado(){
-        onView(withId(R.id.hurricaneBtn)).perform(click());
+        onView(withId(R.id.tornadoBtn)).perform(click());
     }
 
     @Test
     public void can_select_tornado_info(){
-        onView(withId(R.id.hurricaneBtn)).perform(click());
+        onView(withId(R.id.tornadoBtn)).perform(click());
         onView(withId(R.id.disasterInfoBtn)).perform(click());
     }
 
     @Test
     public void can_select_tornado_kit() {
-        onView(withId(R.id.hurricaneBtn)).perform(click());
+        onView(withId(R.id.tornadoBtn)).perform(click());
         onView(withId(R.id.survivalKitBtn)).perform(click());
     }
 
     @Test
     public void can_select_tornado_maps(){
-        onView(withId(R.id.hurricaneBtn)).perform(click());
+        onView(withId(R.id.tornadoBtn)).perform(click());
         onView(withId(R.id.mapsBtn)).perform(click());
     }
 
