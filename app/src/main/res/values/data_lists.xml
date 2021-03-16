@@ -13,15 +13,35 @@
         <item>Do not try to outrun a tornado in a vehicle.</item>
     </string-array>
     <string-array name="tornado_kit">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
     </string-array>
     <string-array name="earthquake_directions">
         <item>If you are in a car, pull over and stop. Set your parking brake.</item>
@@ -33,15 +53,35 @@
         <item>Hold On: If you are under a table or desk, hold on with one hand and be ready to move with it if it moves. If seated and unable to drop to the floor, bend forward, cover your head with your arms and hold on to your neck with both hands.</item>
     </string-array>
     <string-array name="earthquake_kit">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
     </string-array>
     <string-array name="wildfire_directions">
         <item>Evacuate immediately if authorities tell you to do so!</item>
@@ -56,15 +96,35 @@
         <item>Pay attention to any health symptoms if you have asthma, COPD, heart disease, or are pregnant. If you are sick and need medical attention, contact your healthcare provider for further care instructions and shelter in place, if possible. If you are experiencing a medical emergency, call 9-1-1 and let the operator know if you have, or think you might have, COVID-19. If possible, put on a cloth fae covering before help arrives. If staying at a shelter or public facility, alert shelter staff immediately so they can call a local hospital or clinic.</item>
     </string-array>
     <string-array name="wildfire_kit">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
     </string-array>
     <string-array name="volcano_directions">
         <item>Listen to alerts. The Volcano Notification Service provides up-to-date information about eruptions.</item>
@@ -75,14 +135,34 @@
         <item>Avoid driving in heavy ash fall.</item>
     </string-array>
     <string-array name="volcano_kit">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
     </string-array>
 </resources>
