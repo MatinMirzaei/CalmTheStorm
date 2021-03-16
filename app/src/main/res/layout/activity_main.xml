@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.548" />
 
     <ImageButton
-        android:id="@+id/hurricaneBtn"
+        android:id="@+id/tornadoBtn"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginTop="140dp"
@@ -83,10 +83,10 @@
         android:layout_marginTop="20dp"
         android:onClick="getDisasterDetail"
         android:scaleType="fitEnd"
-        app:layout_constraintEnd_toEndOf="@+id/hurricaneBtn"
+        app:layout_constraintEnd_toEndOf="@+id/tornadoBtn"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/hurricaneBtn"
-        app:layout_constraintTop_toBottomOf="@+id/hurricaneBtn"
+        app:layout_constraintStart_toStartOf="@+id/tornadoBtn"
+        app:layout_constraintTop_toBottomOf="@+id/tornadoBtn"
         app:srcCompat="@drawable/earthquake" />
 
     <TextView
@@ -129,16 +129,16 @@
         app:layout_constraintVertical_bias="0.516" />
 
     <TextView
-        android:id="@+id/hurricaneBtnText"
+        android:id="@+id/tornadoBtnText"
         android:layout_width="109dp"
         android:layout_height="49dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:text="Tornado"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/hurricaneBtn"
-        app:layout_constraintStart_toStartOf="@+id/hurricaneBtn"
-        app:layout_constraintTop_toTopOf="@+id/hurricaneBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/tornadoBtn"
+        app:layout_constraintStart_toStartOf="@+id/tornadoBtn"
+        app:layout_constraintTop_toTopOf="@+id/tornadoBtn"
         app:layout_constraintVertical_bias="0.488" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
