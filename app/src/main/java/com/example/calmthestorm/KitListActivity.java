@@ -21,16 +21,16 @@ public class KitListActivity extends AppCompatActivity {
         disaster = getIntent().getStringExtra("disaster");
         switch (disaster){
             case "tornado":
-                contents = getResources().getStringArray(R.array.tornado_directions);
+                contents = getResources().getStringArray(R.array.tornado_kit);
                 break;
             case "earthquake":
-                contents = getResources().getStringArray(R.array.earthquake_directions);
+                contents = getResources().getStringArray(R.array.earthquake_kit);
                 break;
             case "wildfire":
-                contents = getResources().getStringArray(R.array.wildfire_directions);
+                contents = getResources().getStringArray(R.array.wildfire_kit);
                 break;
             case "volcano":
-                contents = getResources().getStringArray(R.array.volcano_directions);
+                contents = getResources().getStringArray(R.array.volcano_kit);
                 break;
             default:
                 contents = null;
