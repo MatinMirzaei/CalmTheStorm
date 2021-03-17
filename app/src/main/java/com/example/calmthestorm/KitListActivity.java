@@ -9,16 +9,42 @@ import android.os.Bundle;
 import java.util.ArrayList;
 
 public class KitListActivity extends AppCompatActivity {
-    ArrayList<KitItem> kitItemsInfo;
+    ArrayList<KitItem> kitItemsInfo = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kit_list);
 
-        RecyclerView rv = (RecyclerView) findViewById(R.id.kitRecyclerView);
+        String[] contents;
+        String disaster;
+        disaster = getIntent().getStringExtra("disaster");
+        switch (disaster){
+            case "tornado":
+                contents = getResources().getStringArray(R.array.tornado_kit);
+                break;
+            case "earthquake":
+                contents = getResources().getStringArray(R.array.earthquake_kit);
+                break;
+            case "wildfire":
+                contents = getResources().getStringArray(R.array.wildfire_kit);
+                break;
+            case "volcano":
+                contents = getResources().getStringArray(R.array.volcano_kit);
+                break;
+            default:
+                contents = null;
+        }
 
-        kitItemsInfo = KitItem.createDummyKit(10);
+        if (contents != null){
+            for (String info : contents) {
+                kitItemsInfo.add(new KitItem(info));
+            }
+        }
+        else
+            kitItemsInfo = KitItem.createDummyKit(10);
+
+        RecyclerView rv = (RecyclerView) findViewById(R.id.kitRecyclerView);
 
         KitAdapter adapter = new KitAdapter(kitItemsInfo);
 

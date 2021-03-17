@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tornado_directions">
+        <item>If you can safely get to a sturdy building, then do so immediately.</item>
+        <item>Go to a safe room, basement, or storm cellar.</item>
+        <item>If you are in a building with no basement, then get to a small interior room on the lowest level.</item>
+        <item>Stay away from windows, doors, and outside walls.</item>
+        <item>Do not get under an overpass or bridge. You’re safer in a low, flat location.</item>
+        <item>Watch out for flying debris that can cause injury or death.</item>
+        <item>Use your arms to protect your head and neck.</item>
+        <item>If you cannot stay at home after a tornado, make plans to shelter with friends and family.</item>
+        <item>Listen to EAS, NOAA Weather Radio, or local alerting systems for current emergency information and instructions.</item>
+        <item>Do not try to outrun a tornado in a vehicle.</item>
+    </string-array>
+    <string-array name="tornado_kit">
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
+    </string-array>
+    <string-array name="earthquake_directions">
+        <item>If you are in a car, pull over and stop. Set your parking brake.</item>
+        <item>If you are in bed, turn face down and cover your head and neck with a pillow.</item>
+        <item>If you are outdoors, stay outdoors away from buildings.</item>
+        <item>If you are inside, stay and do not run outside and avoid doorways.</item>
+        <item>Drop: Wherever you are, drop down to your hands and knees and hold onto something sturdy. If you’re using a wheelchair or walker with a seat, make sure your wheels are locked and remain seated until the shaking stops.</item>
+        <item>Cover: Cover your head and neck with your arms. If a sturdy table or desk is nearby, crawl underneath it for shelter. If no shelter is nearby, crawl next to an interior wall (away from windows). Crawl only if you can reach better cover without going through an area with more debris. Stay on your knees or bent over to protect vital organs.</item>
+        <item>Hold On: If you are under a table or desk, hold on with one hand and be ready to move with it if it moves. If seated and unable to drop to the floor, bend forward, cover your head with your arms and hold on to your neck with both hands.</item>
+    </string-array>
+    <string-array name="earthquake_kit">
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
+    </string-array>
+    <string-array name="wildfire_directions">
+        <item>Evacuate immediately if authorities tell you to do so!</item>
+        <item>If trapped, then call 911 and give your location, but be aware that emergency response could be delayed or impossible. Turn on lights to help rescuers find you.</item>
+        <item>Pay attention to emergency alerts and notifications for information and instructions.</item>
+        <item>Use an N95 mask to protect yourself from smoke inhalation.</item>
+        <item>If you are not ordered to evacuate but smoky conditions exist, stay inside in a safe location or go to a community building where smoke levels are lower.</item>
+        <item> If you do not already have N95 respirators, you can reduce your exposure to smoke by doing the following:</item>
+        <item>Choose a room to close off from outside air and set up a portable air cleaner or filter to keep the air in this room clean even when it’s smoky in the rest of the building and outdoors.</item>
+        <item>Use high efficiency filters in your central air conditioning system to capture fine particles from smoke. If your system has fresh air intake, set the system to “recirculate” mode and close the outdoor intake damper.</item>
+        <item>Avoid using anything that burns, such as candles and fireplaces. Do not vacuum, as vacuuming stirs up particles already inside your home. Do not smoke tobacco or other products. Smoking puts even more pollution into the air.</item>
+        <item>Pay attention to any health symptoms if you have asthma, COPD, heart disease, or are pregnant. If you are sick and need medical attention, contact your healthcare provider for further care instructions and shelter in place, if possible. If you are experiencing a medical emergency, call 9-1-1 and let the operator know if you have, or think you might have, COVID-19. If possible, put on a cloth fae covering before help arrives. If staying at a shelter or public facility, alert shelter staff immediately so they can call a local hospital or clinic.</item>
+    </string-array>
+    <string-array name="wildfire_kit">
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
+    </string-array>
+    <string-array name="volcano_directions">
+        <item>Listen to alerts. The Volcano Notification Service provides up-to-date information about eruptions.</item>
+        <item>Follow evacuation orders from local authorities. Evacuate early.</item>
+        <item>Avoid areas downwind, and river valleys downstream, of the volcano. Rubble and ash will be carried by wind and gravity.</item>
+        <item>Take temporary shelter from volcanic ash where you are if you have enough supplies. Cover ventilation openings and seal doors and windows.</item>
+        <item>If outside, protect yourself from falling ash that can irritate skin and injure breathing passages, eyes, and open wounds. Use a well-fitting, certified face mask such as an N95. The Centers for Disease Control and Prevention (CDC) has a list of certified masks and the maker’s instructions on how to use the masks. Use a cloth mask to protect yourself for shorter periods of time.</item>
+        <item>Avoid driving in heavy ash fall.</item>
+    </string-array>
+    <string-array name="volcano_kit">
+        <item>Dust mask (to help filter contaminated air)</item>
+        <item>Water (one gallon per person per day for several days, for drinking and sanitation)</item>
+        <item>Food (at least a three-day supply of non-perishable food)</item>
+        <item>Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Manual can opener (for food)</item>
+        <item>Matches in a waterproof container</item>
+        <item>Whistle (to signal for help)</item>
+        <item>Wrench or pliers (to turn off utilities)</item>
+        <item>Plastic sheeting and duct tape (to shelter in place)</item>
+        <item>Moist towelettes, garbage bags and plastic ties (for personal sanitation)</item>
+        <item>Local maps</item>
+        <item>Cell phone with chargers and a backup battery</item>
+        <item>Sleeping bag or warm blanket for each person</item>
+        <item>Complete change of clothing appropriate for your climate and sturdy shoes</item>
+        <item>Prescription medications</item>
+        <item>Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives</item>
+        <item>Prescription eyeglasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes and diaper rash cream</item>
+        <item>Feminine supplies and personal hygiene items</item>
+        <item>Pet food and extra water for your pet</item>
+        <item>Cash or traveler\'s checks</item>
+        <item>Important family documents such as copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>Fire extinguisher</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles or other activities for children</item>
+    </string-array>
+</resources>
