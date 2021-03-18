@@ -45,7 +45,7 @@ public class ListsActivity extends AppCompatActivity {
         else
             disasterInfo = InfoItem.createDummyList(10);
 
-        RecyclerView rv = (RecyclerView) findViewById(R.id.recyclerView);
+        RecyclerView rv = (RecyclerView) findViewById(R.id.recycler_view);
 
         DetailAdapter adapter = new DetailAdapter(disasterInfo);
 
