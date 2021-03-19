@@ -14,4 +14,9 @@ public class Disaster {
 
     @ColumnInfo(name = "type")
     public String type;
+
+    public Disaster(String info, String type){
+        this.info = info;
+        this.type = type;
+    }
 }
