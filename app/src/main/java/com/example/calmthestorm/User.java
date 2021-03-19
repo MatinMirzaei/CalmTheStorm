@@ -2,6 +2,7 @@ package com.example.calmthestorm;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 @Entity
@@ -25,6 +26,9 @@ public class User {
 
     @ColumnInfo(name = "locationId")
     public int locationId;
+
+    @Ignore
+    public User(){}
 
     public User(String firstName, String lastName, String email, String phone, int locationId){
         this.firstName = firstName;
