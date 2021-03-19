@@ -8,7 +8,7 @@
         <item name="android:windowBackground">@color/tan</item>
         <item name="android:textColorPrimary">@color/blue_grey</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/tan</item>
+        <item name="colorSecondary">@color/blue_grey</item>
         <item name="colorSecondaryVariant">@color/tan</item>
         <item name="colorOnSecondary">@color/blue_grey</item>
         <item name="android:textColorSecondary">@color/pink</item>
